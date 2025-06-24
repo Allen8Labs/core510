@@ -106,6 +106,32 @@ git add . && git commit -m "Require (react #003)"
 
 - Requerimos dependencias de tailwind
 
+- Dependencias a instalar
+
+	@tailwindcss/vite@^4.1.10 tailwindcss@^4.1.10
+
+- Scafolding ./src/styles/global.css.
+
+	@import "tailwindcss";
+
+- Actualiza astro.config.mjs
+
+	// @ts-check
+	import { defineConfig } from 'astro/config';
+
+	import react from '@astrojs/react';
+
+	import tailwindcss from '@tailwindcss/vite';
+
+	// https://astro.build/config
+	export default defineConfig({
+		integrations: [react()],
+
+		vite: {
+			plugins: [tailwindcss()]
+		}
+	});
+
 - Astro will scaffold ./src/styles/global.css.
 	* continue ?  (yes/no) yes
 
@@ -119,7 +145,7 @@ git add . && git commit -m "Require (react #003)"
 ````
 pnpm astro add tailwind
 *pnpm dlx astro add tailwind
-pnpm add @tailwindcss/vite@^4.0.12 tailwindcss@^4.0.12 
+pnpm add @tailwindcss/vite@^4.1.10 tailwindcss@^4.1.10
 
 *pnpm dlx tailwindcss init
 ````
