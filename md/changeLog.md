@@ -52,6 +52,34 @@ git add . && git commit -m "Add (md #002)"
 
 - Requerimos dependencias de react
 
+- dependencias a instalar
+
+	@astrojs/react@^4.3.0 @types/react@^19.1.8 @types/react-dom@^19.1.6 react@^19.1.0 
+
+- Inserta el sigueinte condigo en astro.config.mjs
+
+	// https://astro.build/config                 │
+	export default defineConfig({
+		integrations: [react()]
+	});
+
+- Inserta el sigueinte condigo en tsconfig.json
+
+	{
+		"extends": "astro/tsconfigs/strict",
+		"include": [
+			".astro/types.d.ts",
+			"**/*"
+		],
+		"exclude": [
+			"dist"
+		],
+		"compilerOptions": {
+			"jsx": "react-jsx",
+			"jsxImportSource": "react"
+		}
+	}
+
 - Astro will run the following command:
 	* continue ?  (yes/no) yes
 
@@ -64,7 +92,7 @@ git add . && git commit -m "Add (md #002)"
 ````
 pnpm astro add react
 *pnpm dlx astro add react
-pnpm add @astrojs/react@^4.2.1 @types/react@^19.0.10 @types/react-dom@^19.0.4 react@^19.0.0 react-dom@^19.0.0
+pnpm add @astrojs/react@^4.3.0 @types/react@^19.1.8 @types/react-dom@^19.1.6 react@^19.1.0 react-dom@^19.1.0
 ````
 
 ````
