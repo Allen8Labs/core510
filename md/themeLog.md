@@ -1,4 +1,4 @@
-# plugged54 &middot; Astro.build [5.4.2*]
+# core510 &middot; Astro.build [5.10.*]
 ### **Tailwind - Typescript - Pnpm - font Urbanist**
 
 <!--  // ──────────────────────────────────────────────── -->
@@ -16,7 +16,7 @@
   * utils
 
 ````
-git remote add origin https://github.com/munlit/plugged54.git
+git remote add origin https://github.com/Allen8Labs/core510.git
 
 git add . && git commit -m "Include (dir #010)"
 ````

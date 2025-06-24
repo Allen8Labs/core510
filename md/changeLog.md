@@ -1,6 +1,6 @@
 <!--  // ──────────────────────────────────────────────── -->
 
-# allenS5 &middot; Astro.build [5.10.1*]
+# core510 &middot; Astro.build [5.10.1*]
 
 ### **Tailwind - Typescript - Inter**
 
@@ -14,7 +14,7 @@
 - Opciones de instalacion elegidas
 
 	* Where should we create your new project?
-		allenS5
+		core510
 
 	* How would you like to start your new project?
 		A basic, minimal starter
@@ -29,7 +29,7 @@
 pnpm create astro@latest
 ````
 ````
-cd allenS5
+cd core510
 
 git init && git add . && git commit -m "Init"
 ````
@@ -413,7 +413,7 @@ git add . && git commit -m "Customized (tsconfig astro.config #009)"
 	* Components/Header
 
 ````
-git remote add origin https://github.com/Allen8Labs/allenS5.git
+git remote add origin https://github.com/Allen8Labs/core510.git
 
 git add . && git commit -m "Remote (github)"
 ````
