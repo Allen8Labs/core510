@@ -315,9 +315,11 @@ git add . && git commit -m "Require (xtras theme #008)"
 	"extends": "astro/tsconfigs/strict",
 	"include": [
 		".astro/types.d.ts",
-		"**/*"
+		"src/**/*"
+		// "**/*"
 	],
 	"exclude": [
+		"node_modules",
 		"dist"
 	],
 	"compilerOptions": {
@@ -389,6 +391,7 @@ export default defineConfig({
 	],
 
 	vite: {
+		// @ts-ignore
 		plugins: [tailwindcss()]
 	}
 });
