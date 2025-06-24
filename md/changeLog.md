@@ -223,7 +223,7 @@ pnpm add -D sharp sass
 ````
 
 ````
-git add . && git commit -m "Require (extras #006)"
+git add . && git commit -m "Require (dev extras #006)"
 ````
 
 <!--  // ──────────────────────────────────────────────── -->
