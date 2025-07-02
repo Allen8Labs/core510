@@ -1,1 +1,39 @@
 @import "tailwindcss";
+
+
+@theme {
+	/* 
+	 * Variables de color para el tema de la aplicación.
+	 * Estos colores se utilizan en todo el sitio web para mantener una coherencia visual.
+	 */
+		
+	--color-principal	:	#005BCD;	/* blue */
+	--color-secondary	:	#6BF6FB;
+	--color-white		:	#FFFFFF;
+	--color-black		:	#021627;
+	--color-shadow		:	#1D3D63;
+
+	--color-info		:	#005BCD;	/* blue */
+	--color-success		:	#D4F670;	/* flowpay-green */
+	--color-warning		:	#F17930;	/* orange */
+	--color-danger		:	#ED462F;	/* red */
+	
+	--color-sky			:	#D1ECEE;	/* dalto-sky */
+	--color-light		:	#EBF2D0;	/* flowpay-lime */
+	--color-gray		:	#C2C7C5;	/* flowpay-gray */
+	--color-dark		:	#101E29;	/* flowpay-darkblue */
+	
+	--color-blue		:	#005BCD;	/* exped-blue */
+	--color-darkblue	:	#0A1832;	/* exped-darkblue */
+	--color-lime		:	#EBF2D0;	/* flowpay-lime */
+	--color-green		:	#B9FF66;	/* positivus-green */
+	--color-darkgreen	:	#0F3338;	/* dalto-darkgreen */
+	--color-violet		:	#3245FF;
+	--color-fuxcia		:	#BC52EE; 
+	--color-orange		:	#F17930;	/* exped-orange */
+	--color-red			:	#ED462F;	/* exped-red */
+	
+	--color-textdark	:	#101E29;
+	--color-textlight	:	#D1ECEE;
+
+}

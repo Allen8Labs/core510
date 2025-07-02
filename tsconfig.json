@@ -22,11 +22,21 @@
 
 			"@global/*"		:	["global/*"],
 
-			"@lib/*"		:	["lib/*"],
+			"@assets/*"		:	["assets/*"],
 
-			"@utils/*"		:	["utils/*"],
+			"@images/*"		:	["assets/images/*"],
+
+			"@icons/*"		:	["assets/icons/*"],
 
 			"@components/*"	:	["components/*"],
+
+			"@sections/*"	:	["components/sections/*"],
+
+			"@partials/*"	:	["components/partials/*"],
+
+			"@ui/*"			:	["components/ui/*"],
+
+			"@widgets/*"	:	["components/widgets/*"],
 
 			"@containers/*"	:	["containers/*"],
 
@@ -36,17 +46,15 @@
 
 			"@layouts/*"	:	["layouts/*"],
 
-			"@styles/*"		:	["styles/*"],
+			"@lib/*"		:	["lib/*"],
+
+			"@pages/*"		:	["pages/*"],
 
 			"@scripts/*"	:	["scripts/*"],
 
-			"@assets/*"		:	["assets/*"],
+			"@styles/*"		:	["styles/*"],
 
-			"@images/*"		:	["assets/images/*"],
-
-			"@icons/*"		:	["assets/icons/*"],
-
-			"@pages/*"		:	["pages/*"],
+			"@utils/*"		:	["utils/*"],
 
 		}
 	}
