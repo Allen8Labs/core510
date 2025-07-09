@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
-
-@theme {
+/* @theme { */
+:root {
 	/* 
 	 * Variables de color para el tema de la aplicación.
 	 * Estos colores se utilizan en todo el sitio web para mantener una coherencia visual.

@@ -401,16 +401,48 @@ git add . && git commit -m "Customized (tsconfig astro.config #009)"
 ````
 
 <!--  // ──────────────────────────────────────────────── -->
+<!--  Icon ────────────────── -->
+
+## Icon
+
+- Requerimos dependencias de Astro icon (no oficial)
+
+	astro-icon is not an official Astro package.
+	* continue ?  (yes/no) yes
+
+- Install
+
+	pnpm add astro-icon@^1.1.5
+	* continue ?  (yes/no) yes
+
+- Integration
+
+    import icon from "astro-icon";
+
+    // https://astro.build/config
+    export default defineConfig({
+        integrations: [react(), mdx(), icon()],
+    });
+
+	* continue ?  (yes/no) yes
+
+````
+pnpm astro add astro-icon
+
+pnpm add astro-icon@^1.1.5
+````
+
+````
+git add . && git commit -m "Require (icon #010)"
+````
+
+<!--  // ──────────────────────────────────────────────── -->
 <!--  Github ─────────────────── -->
 
 ## GitHub
 
 - Vinculamos con github
 - Push repositorio
-
-	* Containers
-	* Components/Footer
-	* Components/Header
 
 ````
 git remote add origin https://github.com/Allen8Labs/core510.git

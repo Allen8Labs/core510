@@ -20,6 +20,7 @@
 		"@types/react-dom": "^19.1.6",
 		"astro": "^5.10.1",
 		"astro-compressor": "^1.0.0",
+		"astro-icon": "^1.1.5",
 		"astro-navbar": "^2.4.0",
 		"astro-seo": "^0.8.4",
 		"astro-vtbot": "^2.1.5",
